@@ -1,0 +1,173 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;    
+}
+body{
+    width: 100;
+    min-height: 100vh;
+    background-color: rgb(243, 243, 243);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.content-all{
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 100vh;
+}
+.photo-phone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;    
+}    
+.photo-phone img{
+    height: 50rem;
+}
+.frame-right{
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+    flex-direction: column;
+    width: 70%;
+    min-height: 43rem; 
+    margin-top: 5rem;      
+}
+.frame-login{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    padding: 1.3rem 0;
+    background-color: white;
+    border: 1px solid lightgray;
+    min-height: 26rem; 
+    margin-bottom: 0.6rem;  
+}
+.or{
+    color: rgb(167, 165, 165);    
+}
+.logo-instagran{
+    margin-top: 1.3rem;
+    margin-bottom: 2rem;
+}
+.enter{    
+    color: white;
+}
+.box-enter{
+    background-color: rgba(11, 149, 241, 0.979);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 250px;
+    height: 28px;
+    border-radius: 4px;   
+}
+.enter-face{
+    color: rgba(23, 23, 61, 0.733);
+    font-size: 14px;
+    font-weight: bold;
+}
+.forgot-password{
+    color: black;
+    font-size: 12px;   
+}
+.frame-login2{
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem;
+    border: 1px solid lightgray;
+    min-height: 5rem;
+    margin-bottom: 00.6rem;}
+.app{
+    margin-bottom: 000.6rem;
+}
+.account{
+    font-size: 14px;
+}
+.register{
+    font-size: 14px;
+    color: rgba(11, 149, 241, 0.979);
+}
+.frame-login3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+    margin-bottom: 0.5;
+    min-height: 5rem;
+}
+.download{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+.app-download{
+    width: 10rem;
+    height: 3rem;
+    background-size: cover;    
+}
+.app-download:nth-child(1){
+    background-image: url('./img/apple-button.png');
+}
+.app-download:nth-child(2){
+    background-image: url('./img/googleplay-button.png');
+}
+.input-field{
+    position: relative;          
+}
+.username{ 
+   outline: none;
+   background: rgb(250, 249, 249);   
+   border-width: 1px;
+   border-radius: 4px;
+   border-color:  #d7e0e6;   
+   margin-bottom: 0.8rem; 
+   font-size: 00.8rem;  
+   text-align: start;   
+}
+.password{
+    outline: none;
+    background: rgb(250, 249, 249);
+    border-width: 1px;
+    border-radius: 4px;
+    border-color:  #d7e0e6; 
+       
+}
+@media (max-width: 1024px){
+    .content-all{
+        width: 90%;
+    }
+}
+@media (max-width: 650px){
+    .content-all{
+        width: 90px;
+    }
+
+    .photo-phone{
+        display: none;
+    }
+    .frame-right{
+        width: 100%;
+    }
+}
+
+
+
+
+    
